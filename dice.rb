@@ -4,7 +4,8 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-  "Hello World"
+  "<h1>Dice Roll!</h1>
+  <ul>"
 end
 
 get("/dice/2/6") do
